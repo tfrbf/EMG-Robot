@@ -1,6 +1,11 @@
 ## Controlling a Robot with EMG Sensors and Arduino 
 This project was conducted for the bachelor's degree under the supervision of [Dr.Mehdi Baradarannia](https://scholar.google.com/citations?user=zclZQhcAAAAJ) at the [University of Tabriz](https://en.wikipedia.org/wiki/University_of_Tabriz).
 
+This project has been carried out in several stages, which are described below:
+- [x] Setting up and receiving correct data from the sensor
+- [x] Controlling the robot in three states (stop - move forward - move backward) by connecting with a wire
+- [ ] Controlling the robot in three states (stop - move forward - move backward) by wireless connection
+
 ## Description
 
 This project allows you to control a robot using EMG [Electromyography](https://en.wikipedia.org/wiki/Electromyography) sensors and Arduino. It also includes a remote control functionality using Bluetooth modules. The system interprets muscle signals captured by the EMG sensors and translates them into commands for the robot, enabling intuitive control based on muscle movements.
@@ -29,7 +34,7 @@ This project allows you to control a robot using EMG [Electromyography](https://
 ## Software Requirements
 
 - Arduino IDE
-- Arduino libraries for Bluetooth and motor control (if applicable)
+- Arduino libraries for Bluetooth and motor control
 
 ## Installation
 
@@ -40,7 +45,7 @@ This project allows you to control a robot using EMG [Electromyography](https://
 5. Connect the EMG sensors to the Arduino board as per the provided documentation.
 6. Connect the Bluetooth modules and set up the communication between the remote control device and the Arduino board.
 7. Compile and upload the sketch to the Arduino board.
-8. Power up the robot and ensure that all the connections are secure.
+8. Power up the robot and ensure all connections are secure.
 
 ## Usage
 
@@ -52,7 +57,11 @@ This project allows you to control a robot using EMG [Electromyography](https://
 6. Explore the possibilities of controlling the robot through muscle movements and the remote control interface.
 
 ## Sensor calibration
-cggybjkhioh
+
+Sensor start-ups can generally be divided into 3 steps:
+1. In this step, only the data is displayed
+2. by pressing the key once, the system starts to take the minimum and maximum and divides this period into 3 parts. At this stage, the system is not yet active.
+3. In the last step by pressing the key for the second time, the system starts working according to the data of the previous step, so that the middle third is used for stop mode and the first and last third are used for forward and backward.
 
 
 ## Contributing
@@ -61,7 +70,7 @@ We welcome contributions from the community to improve this project. If you woul
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
-3. Make your changes and ensure they are properly tested.
+3. Make your changes and ensure they are adequately tested.
 4. Submit a pull request, describing the changes you have made.
 
 ## License
@@ -70,4 +79,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please contact us at [email address].
+If you have any questions, suggestions, or feedback, please get in touch with us at [email address].
