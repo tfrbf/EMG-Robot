@@ -1,10 +1,12 @@
-## Project Name
-
-Controlled Robot with EMG Sensors and Arduino
+## Controlled Robot with EMG Sensors and Arduino 
+This project was conducted for the bachelor's degree under the supervision of [Dr.Mehdi Baradarannia](https://scholar.google.com/citations?user=zclZQhcAAAAJ) at the [University of Tabriz](https://en.wikipedia.org/wiki/University_of_Tabriz).
 
 ## Description
 
-This project allows you to control a robot using EMG ([Electromyography]([url](https://en.wikipedia.org/wiki/Electromyography))) sensors and Arduino. It also includes a remote control functionality using Bluetooth modules. The system interprets muscle signals captured by the EMG sensors and translates them into commands for the robot, enabling intuitive control based on muscle movements.
+This project allows you to control a robot using EMG [Electromyography](https://en.wikipedia.org/wiki/Electromyography) sensors and Arduino. It also includes a remote control functionality using Bluetooth modules. The system interprets muscle signals captured by the EMG sensors and translates them into commands for the robot, enabling intuitive control based on muscle movements.
+![R](https://github.com/tfrbf/EMG-Robot/assets/79377894/04193254-7e55-4854-9875-94f626c335c0)
+
+
 
 ## Features
 
