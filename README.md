@@ -46,12 +46,13 @@ This project allows you to control a robot using EMG [Electromyography](https://
 
 1. Turn on the EMG sensors and ensure they are properly positioned on the user's muscles.
 2. Establish a Bluetooth connection between the remote control device and the Arduino board.
-3. [Calibrate](Sensor-calibration) the system, adjusting the sensitivity and thresholds as needed.
+3. [Calibrate](#sensor-calibration) the system, adjusting the sensitivity and thresholds as needed.
 4. The EMG signals will be continuously monitored and translated into control commands for the robot.
 5. Use the remote control device to send commands via Bluetooth, allowing manual control of the robot.
 6. Explore the possibilities of controlling the robot through muscle movements and the remote control interface.
 
 ## Sensor calibration
+cggybjkhioh
 
 
 ## Contributing
