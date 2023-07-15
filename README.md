@@ -1,5 +1,5 @@
 ## Controlling a Robot with EMG Sensors and Arduino 
-This project was conducted for the bachelor's degree under the supervision of [Dr.Mehdi Baradarannia](https://scholar.google.com/citations?user=zclZQhcAAAAJ) at the [University of Tabriz](https://en.wikipedia.org/wiki/University_of_Tabriz).
+This project was conducted for the bachelor's degree by [Ali Mahdili](https://www.linkedin.com/in/ali-mahdili-5340a1234?originalSubdomain=ir)under the supervision of [Dr.Mehdi Baradarannia](https://scholar.google.com/citations?user=zclZQhcAAAAJ) at the [University of Tabriz](https://en.wikipedia.org/wiki/University_of_Tabriz).
 
 This project has been carried out in several stages, which are described below:
 - [x] Setting up and receiving correct data from the sensor - April 2023
@@ -88,4 +88,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please get in touch with us at [email address].
+If you have any questions, suggestions, or feedback, please get in touch with us at ali.mahdili1370@mail.com
