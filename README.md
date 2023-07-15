@@ -3,8 +3,8 @@ This project was conducted for the bachelor's degree under the supervision of [D
 
 This project has been carried out in several stages, which are described below:
 - [x] Setting up and receiving correct data from the sensor - April 2023
-- [x] Controlling the robot in three states (stop - move forward - move backward) by connecting with a wire - June 2023
-- [x] Controlling the robot in three states (stop - move forward - move backward) by [wireless connection](#wireless-connection) - July 2023
+- [x] Controlling the robot in three states (stop-forward-backward) by connecting with a wire - June 2023
+- [x] Controlling the robot in three states (stop-forward-backward) by [wireless connection](#wireless-connection) - July 2023
 
 ## Description
 
