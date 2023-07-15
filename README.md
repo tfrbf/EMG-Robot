@@ -4,7 +4,7 @@ This project was conducted for the bachelor's degree under the supervision of [D
 This project has been carried out in several stages, which are described below:
 - [x] Setting up and receiving correct data from the sensor
 - [x] Controlling the robot in three states (stop - move forward - move backward) by connecting with a wire
-- [ ] Controlling the robot in three states (stop - move forward - move backward) by wireless connection
+- [x] Controlling the robot in three states (stop - move forward - move backward) by [wireless connection](#wireless-connection)
 
 ## Description
 
@@ -63,9 +63,18 @@ Sensor start-ups can generally be divided into 3 steps:
 2. by pressing the key once, the system starts to take the minimum and maximum and divides this period into 3 parts. At this stage, the system is not yet active.
 3. In the last step by pressing the key for the second time, the system starts working according to the data of the previous step, so that the middle third is used for stop mode and the first and last third are used for forward and backward.
 
+## Wireless connection
+nRF24L01 is a single-chip radio transceiver for the worldwide 2.4 - 2.5 GHz ISM 
+band. The transceiver consists of a fully integrated frequency synthesizer, a power 
+amplifier, a crystal oscillator, a demodulator, a modulator, and Enhanced ShockBurst™ 
+protocol engine. Output power, frequency channels, and protocol setup are easily 
+programmable through an SPI interface. Current consumption is very low, only 9.0mA 
+at an output power of -6dBm and 12.3mA in RX mode. Built-in Power Down and 
+Standby modes make power saving easily realizable.
+
+![image](https://github.com/tfrbf/EMG-Robot/assets/79377894/3b70e499-caf3-42d7-a409-793f23ed5890)
 
 ## Contributing
-
 We welcome contributions from the community to improve this project. If you would like to contribute, please follow these steps:
 
 1. Fork the repository.
