@@ -2,13 +2,13 @@
 This project was conducted for the bachelor's degree under the supervision of [Dr.Mehdi Baradarannia](https://scholar.google.com/citations?user=zclZQhcAAAAJ) at the [University of Tabriz](https://en.wikipedia.org/wiki/University_of_Tabriz).
 
 This project has been carried out in several stages, which are described below:
-- [x] Setting up and receiving correct data from the sensor
-- [x] Controlling the robot in three states (stop - move forward - move backward) by connecting with a wire
-- [x] Controlling the robot in three states (stop - move forward - move backward) by [wireless connection](#wireless-connection)
+- [x] Setting up and receiving correct data from the sensor - April 2023
+- [x] Controlling the robot in three states (stop - move forward - move backward) by connecting with a wire - June 2023
+- [x] Controlling the robot in three states (stop - move forward - move backward) by [wireless connection](#wireless-connection) - July 2023
 
 ## Description
 
-This project allows you to control a robot using EMG [Electromyography](https://en.wikipedia.org/wiki/Electromyography) sensors and Arduino. It also includes a remote control functionality using Bluetooth modules. The system interprets muscle signals captured by the EMG sensors and translates them into commands for the robot, enabling intuitive control based on muscle movements.
+This project allows you to control a robot using EMG [Electromyography](https://en.wikipedia.org/wiki/Electromyography) sensors and Arduino. It also includes a remote control functionality using NRF24L01 modules. The system interprets muscle signals captured by the EMG sensors and translates them into commands for the robot, enabling intuitive control based on muscle movements.
 ![R](https://github.com/tfrbf/EMG-Robot/assets/79377894/04193254-7e55-4854-9875-94f626c335c0)
 
 
@@ -23,18 +23,18 @@ This project allows you to control a robot using EMG [Electromyography](https://
 
 ## Hardware Requirements
 
-- Arduino board
+- Arduino board (*2)
 - EMG sensors
-- Bluetooth modules
+- [NRF24L01 modules](https://www.seeedstudio.com/blog/2019/11/21/nrf24l01-getting-started-arduino-guide) (*2)
 - Robot platform
-- Motor drivers
+- [Motor driver](https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/) (L298N)
 - Power supply
 - Connecting wires
 
 ## Software Requirements
 
 - Arduino IDE
-- Arduino libraries for Bluetooth and motor control
+- Arduino libraries for modules
 
 ## Installation
 
@@ -43,7 +43,7 @@ This project allows you to control a robot using EMG [Electromyography](https://
 3. Open the Arduino IDE and load the Arduino sketch provided in the repository.
 4. Install the required libraries through the Arduino Library Manager.
 5. Connect the EMG sensors to the Arduino board as per the provided documentation.
-6. Connect the Bluetooth modules and set up the communication between the remote control device and the Arduino board.
+6. Connect the modules and set up the communication between the master and slive boards.
 7. Compile and upload the sketch to the Arduino board.
 8. Power up the robot and ensure all connections are secure.
 
@@ -63,7 +63,7 @@ Sensor start-ups can generally be divided into 3 steps:
 2. by pressing the key once, the system starts to take the minimum and maximum and divides this period into 3 parts. At this stage, the system is not yet active.
 3. In the last step by pressing the key for the second time, the system starts working according to the data of the previous step, so that the middle third is used for stop mode and the first and last third are used for forward and backward.
 
-## Wireless connection
+## Wireless connection 
 nRF24L01 is a single-chip radio transceiver for the worldwide 2.4 - 2.5 GHz ISM 
 band. The transceiver consists of a fully integrated frequency synthesizer, a power 
 amplifier, a crystal oscillator, a demodulator, a modulator, and Enhanced ShockBurst™ 
